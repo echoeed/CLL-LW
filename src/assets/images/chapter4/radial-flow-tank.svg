@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 主体圆形池体 -->
+    <circle cx="400" cy="300" r="250" fill="none" stroke="#333" stroke-width="2"/>
+    
+    <!-- 中心进水管 -->
+    <circle cx="400" cy="300" r="30" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="400" cy="300" r="20" fill="#eee" stroke="#333" stroke-width="1"/>
+    
+    <!-- 周边集水槽 -->
+    <circle cx="400" cy="300" r="230" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="5,5"/>
+    
+    <!-- 刮泥机 -->
+    <line x1="400" y1="300" x2="650" y2="300" stroke="#333" stroke-width="2"/>
+    <line x1="400" y1="300" x2="150" y2="300" stroke="#333" stroke-width="2"/>
+    
+    <!-- 污泥斗 -->
+    <path d="M 380,540 L 420,540 L 400,580 Z" fill="#ddd" stroke="#333" stroke-width="1"/>
+    
+    <!-- 标注文字 -->
+    <text x="400" y="270" text-anchor="middle" font-size="14">进水管</text>
+    <text x="400" y="580" text-anchor="middle" font-size="14">污泥斗</text>
+    <text x="650" y="280" text-anchor="start" font-size="14">刮泥机</text>
+    <text x="630" y="320" text-anchor="end" font-size="14">集水槽</text>
+    
+    <!-- 尺寸标注 -->
+    <text x="400" y="50" text-anchor="middle" font-size="16">二沉池平面示意图</text>
+    <text x="680" y="300" text-anchor="start" font-size="12">D=43m</text>
+</svg>

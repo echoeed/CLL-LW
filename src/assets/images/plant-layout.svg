@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="100%" height="100%" fill="#f5f7fa"/>
+  
+  <!-- 网格线 -->
+  <g stroke="#e4e7ed" stroke-width="1">
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+  </g>
+
+  <!-- 办公生活区 -->
+  <g transform="translate(50,50)">
+    <rect width="150" height="100" fill="#91CC75" opacity="0.8"/>
+    <text x="75" y="60" text-anchor="middle" fill="#333" font-size="14">办公生活区</text>
+  </g>
+
+  <!-- 污水处理区 -->
+  <g transform="translate(250,200)">
+    <rect width="300" height="200" fill="#5470C6" opacity="0.8"/>
+    <text x="150" y="100" text-anchor="middle" fill="#fff" font-size="16">污水处理区</text>
+  </g>
+
+  <!-- 污泥处理区 -->
+  <g transform="translate(600,300)">
+    <rect width="150" height="150" fill="#FAC858" opacity="0.8"/>
+    <text x="75" y="75" text-anchor="middle" fill="#333" font-size="14">污泥处理区</text>
+  </g>
+
+  <!-- 绿化区域 -->
+  <g>
+    <circle cx="100" cy="500" r="50" fill="#73C0DE" opacity="0.6"/>
+    <circle cx="700" cy="100" r="50" fill="#73C0DE" opacity="0.6"/>
+    <text x="100" y="500" text-anchor="middle" fill="#333" font-size="12">绿化区</text>
+    <text x="700" y="100" text-anchor="middle" fill="#333" font-size="12">绿化区</text>
+  </g>
+
+  <!-- 道路 -->
+  <g stroke="#9A60B4" stroke-width="20" opacity="0.6" fill="none">
+    <path d="M50,150 H750"/>
+    <path d="M200,50 V550"/>
+  </g>
+
+  <!-- 预留区域 -->
+  <g transform="translate(450,450)">
+    <rect width="100" height="100" fill="#EE6666" opacity="0.5" stroke="#333" stroke-dasharray="5,5"/>
+    <text x="50" y="50" text-anchor="middle" fill="#333" font-size="12">预留区域</text>
+  </g>
+
+  <!-- 图例标题 -->
+  <text x="50" y="30" font-size="18" fill="#333" font-weight="bold">污水处理厂平面布置图</text>
+</svg>
